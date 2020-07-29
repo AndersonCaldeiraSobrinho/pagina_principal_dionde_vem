@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    padding-top: 12vh;
+    flex: 1 0 auto;
+  }
+
+header {
+    z-index: 99;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    width: 67vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+header div img {
+    height: 8vh;
+}
+
+@media (min-width: 650px) {
+    header div h1 {
+        font-size: xx-large;
+    }
+}
