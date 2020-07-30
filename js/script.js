@@ -13,3 +13,11 @@
 $(document).ready(function(){
     $('.pushpin').pushpin();
   });
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  }); 
